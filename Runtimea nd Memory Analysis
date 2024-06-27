@@ -1,0 +1,14 @@
+Runtime and Memory Analysis Chart
+| Operation                        | Vector       | Hash Table   | Binary Search Tree |
+|----------------------------------|--------------|--------------|--------------------|
+| Opening the file                 | O(1)         | O(1)         | O(1)               |
+| Reading each line                | O(n)         | O(n)         | O(n)               |
+| Splitting line into tokens       | O(1)         | O(1)         | O(1)               |
+| Creating course object           | O(1)         | O(1)         | O(1)               |
+| Checking prerequisites           | O(n * p)     | O(p)         | O(p * log n)       |
+| Inserting into data structure    | O(1)         | O(1)         | O(log n)           |
+| **Total Runtime**                | **O(n * p)** | **O(n * p)** | **O(n * p * log n)**|
+
+
+This table summarizes the runtime complexity of key operations for each data structure, highlighting the efficiency of the hash table for the given application requirements.
+
